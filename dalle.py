@@ -84,7 +84,7 @@ if st.session_state["page"] == 3:
     st.session_state.action = action_result
 
 if st.session_state["page"] == 4:
-    landscape_list = ['Select Landscape', "Field", "Highway", "Tokyo Crossing", "Lake", "Sunset", "Mountains", "Futuristic City"]
+    landscape_list = ['Select Landscape', "Field", "Highway", "Tokyo Crossing", "Lake", "Sunset Scenery", "Mountains", "Futuristic City Scene"]
     landscape_result = st.selectbox("Select what landscape you are in:", landscape_list)
     st.write(f'You have picked {landscape_result}')
     st.session_state.landscape = landscape_result
