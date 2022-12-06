@@ -3,12 +3,10 @@
 #Importing openai module and keeping API key secret with streamlit backend
 import os
 import openai
+import streamlit as st
 openai.api_key = st.secrets["API_KEY"]
 
 # # Streamlit Web App
-
-#Import Streamlit
-import streamlit as st
 
 #Page configurations
 st.set_page_config(page_title="Nova SBE - DALL E Team", page_icon=":tada:", layout="wide")
