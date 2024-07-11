@@ -102,3 +102,5 @@ if st.session_state["page"] == 5:
     image_url = response['data'][0]['url']
     st.write("Please click the link below to view your AI-generated image!!!")
     st.write(image_url)
+
+#The following code pulls up the questions and input boxes on the correct page and saves the input in the session state variables defined earlier
